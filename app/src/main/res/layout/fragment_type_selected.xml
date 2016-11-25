@@ -1,0 +1,328 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.abdelrahman.bloodtypediet.TypeSelectedFragment"
+    tools:showIn="@layout/activity_type_selected"
+
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlack">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="imageClicked"
+        android:id="@+id/fish"
+        >
+<ImageButton
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:src="@drawable/fish"
+    android:layout_columnWeight="0.5"
+    android:background="@null"
+    android:onClick="imageClicked"
+    android:id="@+id/fishB"
+    >
+</ImageButton>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fish"
+        android:textColor="@color/colorWhite"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="imageClicked"
+        android:id="@+id/oil"
+        >
+
+    <ImageButton android:src="@drawable/oil"
+        android:layout_columnWeight="0.5"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="imageClicked"
+        android:id="@+id/oilB"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oil"
+            android:textColor="@color/colorWhite"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="imageClicked"
+        android:id="@+id/meat"
+        >
+
+        <ImageButton android:src="@drawable/meat"
+            android:layout_columnWeight="0.5"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="imageClicked"
+            android:id="@+id/meatB"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meat"
+            android:textColor="@color/colorWhite"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="imageClicked"
+        android:id="@+id/egg"
+        >
+
+    <ImageButton android:src="@drawable/egg3"
+        android:layout_columnWeight="0.5"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="imageClicked"
+        android:id="@+id/eggB"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eggs_and_roes"
+        android:textColor="@color/colorWhite"
+        />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="imageClicked"
+        android:id="@+id/beverage"
+        >
+
+        <ImageButton android:src="@drawable/beverage"
+            android:layout_columnWeight="0.5"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="imageClicked"
+            android:id="@+id/beverageB"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beverage"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="imageClicked"
+        android:id="@+id/fruit"
+        >
+
+        <ImageButton android:src="@drawable/fruit"
+            android:layout_columnWeight="0.5"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="imageClicked"
+            android:id="@+id/fruitB"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fruit_fruit_juice"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="imageClicked"
+android:id="@+id/vegetables"
+        >
+
+        <ImageButton android:src="@drawable/vegetables"
+            android:layout_columnWeight="0.5"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="imageClicked"
+            android:id="@+id/vegetablesB"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vegetable"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="imageClicked"
+        android:id="@+id/grain"
+        >
+
+        <ImageButton android:src="@drawable/grain1"
+            android:layout_columnWeight="0.5"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="imageClicked"
+           android:id="@+id/grainB"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grain"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="imageClicked"
+        android:id="@+id/cheese"
+        >
+
+        <ImageButton android:src="@drawable/cheese"
+            android:layout_columnWeight="0.5"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="imageClicked"
+
+            android:id="@+id/cheeseB"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dairy"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="imageClicked"
+        android:id="@+id/salt"
+        >
+
+        <ImageButton android:src="@drawable/salt"
+            android:layout_columnWeight="0.5"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="imageClicked"
+            android:id="@+id/saltB"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/herb_spice"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="imageClicked"
+        android:id="@+id/sugar"
+        >
+
+        <ImageButton android:src="@drawable/sugar"
+            android:layout_columnWeight="0.5"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="imageClicked"
+            android:id="@+id/sugarB"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sweetener"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="imageClicked"
+        android:id="@+id/leaf">
+
+        <ImageButton android:src="@drawable/leaf"
+            android:layout_columnWeight="0.5"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="imageClicked"
+            android:id="@+id/leafB"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bean_legume"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+</GridLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<resources>
+
+    <string-array name="blood_entries">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+
+    </string-array>
+    <string name="blood_type">blood_type</string>
+    <string name="default_value">a</string>
+    <string-array name="blood_values">
+        <item>a</item>
+        <item>b</item>
+        <item>ab</item>
+        <item>o</item>
+
+    </string-array>
+    <string name="app_name">Blood Type Diet</string>
+    <string name="action_settings">Settings</string>
+    <string name="choose_your_blood_type">Choose your blood type</string>
+    <string name="title_activity_type_selected">TypeSelected</string>
+    <string name="fish">FISH</string>
+    <string name="oil">OIL</string>
+    <string name="meat">MEAT</string>
+    <string name="beverage">BEVERAGE</string>
+    <string name="fruit_fruit_juice">FRUIT/FRUIT JUICE</string>
+    <string name="vegetable">VEGETABLE</string>
+    <string name="grain">GRAIN</string>
+    <string name="dairy">DAIRY</string>
+    <string name="herb_spice">HERB / SPICE</string>
+    <string name="sweetener">SWEETENER</string>
+    <string name="bean_legume">BEAN / LEGUME</string>
+    <string name="title_activity_category_selected">CategorySelected</string>
+    <string name="title_activity_list_of_items">ListOfItems</string>
+    <string name="eggs_and_roes">EGGS AND ROES</string>
+    <string name="title_activity_nutrition_facts">NutritionFacts</string>
+    <string name="blood_type1">Blood type</string>
+    <string name="done">Done</string>
+</resources>
